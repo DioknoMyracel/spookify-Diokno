@@ -31,7 +31,7 @@ figure {
 }
 
 /* Utilities */
-ul[class],
+ul,
 ol[class] {
   padding: 0;
   margin: 0;
@@ -42,3 +42,69 @@ ol[class] {
   margin-top: var(--flow-spacer, var(--spacer));
 }
 /* Start Here */
+body {
+  font-family: 'Lora', serif, 'Poppins', sans-serif;
+  padding: 20px 90px;
+}
+header{
+  border: 1px solid black;
+  display: inline-block;
+  width: 100%;
+  horizontal-align: center;
+}
+.logo{
+  font-family: 'Poppins';
+  color: #24126A;
+  float: left;
+  width: 150px;
+  border: 1px solid black;
+  font-size: 26px;
+  font-weight: bold;
+}
+.logo:after{
+  color: #F55D3A;
+  content: attr(data-descr);
+  position: absolute;
+  font-weight: bold;
+}
+ul {
+  font-family: 'Poppins';
+  border: 1px solid black;
+  float: right;
+  position: relative;
+  margin-top: 5px;
+}
+li{
+  display: inline-block;
+  margin: 7px;
+  color: #24126A;
+}
+a{
+  color: #24126A;
+  font-weight: bold;
+}
+main{
+  border: 1px solid black;
+}
+.pumpkin{
+  border: 1px solid black;
+  float: right;
+  width: 160px;
+  height: auto;
+}
+.pumpkin-img{
+  width: inherit;
+}
+.hero{
+  margin-top: 40px;
+}
+h1{
+  border: 1px solid black;
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  color: #F55D3A;
+  font-size: 6.4rem;
+}
+h2{
+  font-size: 32px;
+}
